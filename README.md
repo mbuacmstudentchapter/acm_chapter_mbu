@@ -33,7 +33,7 @@ Follow these steps to run the ACM MBU Student Chapter website on your local comp
 
 1. **Clone the project code**
    ```bash
-   git clone https://github.com/KJSaiAmrutha/acm_chapter_mbu.git
+   git clone https://github.com/mbuacmstudentchapter/acm_chapter_mbu.git
    cd acm_chapter_mbu
    ```
    *(Note: Replace the repository URL if hosting elsewhere)*
