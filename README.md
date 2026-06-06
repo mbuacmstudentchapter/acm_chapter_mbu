@@ -1,36 +1,88 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ACM MBU Student Chapter
 
-## Getting Started
+A premium, interactive web platform for the **Mohan Babu University (MBU) ACM Student Chapter**. The platform serves as the central hub for student developers, researchers, and computing enthusiasts at Mohan Babu University to learn about chapter initiatives, browse upcoming events, explore student projects, access peer resources, discover opportunities, and apply for membership.
 
-First, run the development server:
+Built with **Next.js**, **React**, **Framer Motion**, and **Tailwind CSS**, featuring dark-mode glassmorphic aesthetics, particle animations, and custom interactions.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Dynamic Hero Section**: Engaging introduction with interactive particle backgrounds and fluid animation details.
+- **Chapter Focus Areas**: Comprehensive details about Global ACM, ACM India, and the local ACM Mohan Babu University Chapter.
+- **Events Timeline**: Interactive showcase of upcoming hackathons, tech talks, and hands-on workshops.
+- **Projects Registry**: Highlight of open-source and collaborative projects developed by chapter members.
+- **Resources Library**: A curated repository of cheat sheets, notes, guides, and learning paths for different domains.
+- **Opportunities Portal**: Listing of internships, research positions, coding contests, and scholarship programs.
+- **Team Board**: Responsive view of the Executive Board and core contributors leading the chapter.
+- **Interactive Blogs**: Student-written articles, tech insights, and chapter update newsletters.
+- **Onboarding Form**: Interactive membership application validating details with simulated onboarding verification.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Setup and Installation
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to run the ACM MBU Student Chapter website on your local computer.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### System Requirements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Node.js**: Version 18.x or higher installed (Version 20.x or higher recommended. Run `node -v` to check).
+- **Package Manager**: npm (comes with Node.js) or yarn/pnpm/bun.
 
-## Deploy on Vercel
+### Step-by-Step Setup
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the project code**
+   ```bash
+   git clone https://github.com/KJSaiAmrutha/acm_chapter_mbu.git
+   cd acm_chapter_mbu
+   ```
+   *(Note: Replace the repository URL if hosting elsewhere)*
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```
+
+3. **Start the application**
+   ```bash
+   npm run dev
+   ```
+   Now, open your web browser and go to [http://localhost:3000](http://localhost:3000).
+
+4. **Build for production**
+   ```bash
+   npm run build
+   npm run start
+   ```
+
+---
+
+## Pre-flight Checklist
+
+| Step | What to Check | Why it is Needed |
+| :--- | :--- | :--- |
+| 1 | Node.js version is 18.x / 20.x | Prevents configuration and dependency build errors. |
+| 2 | `npm install` runs successfully | Installs UI frameworks (`next`, `react`, `framer-motion`, `lucide-react`) and style libraries. |
+| 3 | Tailwind configuration checks | Verifies colors (`bg-navy`, `acm-blue`, `acm-cyan`) are loaded correctly in styles. |
+| 4 | Development port 3000 is open | Enables running the local server under Next.js defaults. |
+
+---
+
+## Technologies Used
+
+- **Framework**: [Next.js (v14.2.35)](https://nextjs.org/) (App Router)
+- **Styling**: [Tailwind CSS (v3.4.1)](https://tailwindcss.com/)
+- **Animations**: [Framer Motion (v12.40.0)](https://www.framer.com/motion/)
+- **Icons**: [Lucide React (v1.17.0)](https://lucide.dev/)
+- **Language**: TypeScript & React (v18)
+
+---
+
+## Contributing
+
+We welcome contributions from ACM members and student developers at MBU!
+1. Fork the repository.
+2. Create your feature branch (`git checkout -b feature/NewFeature`).
+3. Commit your changes (`git commit -m 'Add some NewFeature'`).
+4. Push to the branch (`git push origin feature/NewFeature`).
+5. Open a Pull Request.
